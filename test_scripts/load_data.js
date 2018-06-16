@@ -11,9 +11,9 @@ var table = "Users";
 var params = {
     TableName:table,
     Item:{
-        "email": "raghu@thinschool.org",
-        "firstname": "Raghu",
-        "lastname": "C"
+        "email": "dhruv@thinschool.org",
+        "firstname": "Dhruv",
+        "lastname": "Jain"
     }
 };
 
