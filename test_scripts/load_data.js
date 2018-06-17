@@ -6,15 +6,13 @@ AWS.config.update({
 
 var docClient = new AWS.DynamoDB.DocumentClient();
 
-var table = "Users";
+var table = "users";
 
 var params = {
-    TableName:table,
-    Item:{
-        "email": "dhruv@thinschool.org",
-        "firstname": "Dhruv",
-        "lastname": "Jain"
-    }
+    TableName: table,
+    Item: {
+         'user_id':2,
+          }
 };
 
 console.log("Adding a new item...");
